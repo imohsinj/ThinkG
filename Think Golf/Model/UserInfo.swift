@@ -1,9 +1,9 @@
 //
 //  UserInfo.swift
-//  MCHAnywherePhysician
+//  VogCalegory
 //
 //  Created by Mohsin Jamadar Pvt Ltd on 6/9/16.
-//  Copyright © 2016 Lester Moreno. All rights reserved.
+//  Copyright © 2016 VogCalegory. All rights reserved.
 //
 
 import UIKit

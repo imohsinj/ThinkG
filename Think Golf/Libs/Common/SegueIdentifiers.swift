@@ -1,9 +1,9 @@
 //
 //  SegueIdentifiers.swift
-//  MCHAnywherePhysician
+//  VogCalegory
 //
 //  Created by Mohsin Jamadar on 12/4/15.
-//  Copyright © 2015 Lester Moreno. All rights reserved.
+//  Copyright © 2017 VogCalegory. All rights reserved.
 //
 
 import Foundation

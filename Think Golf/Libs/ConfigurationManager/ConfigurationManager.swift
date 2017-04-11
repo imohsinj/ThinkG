@@ -1,6 +1,6 @@
 //
 //  ConfigurationManager.swift
-//  MCHAnywhere
+//  VogCalegory
 //
 //  Created by Mohsin Jamadar on 9/16/15.
 //  Copyright (c) 2017 MJ. All rights reserved.

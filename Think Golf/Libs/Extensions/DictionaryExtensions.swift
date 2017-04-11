@@ -1,6 +1,6 @@
 //
 //  DictionaryExtensions.swift
-//  MCHAnywhere
+//  VogCalegory
 //
 //  Created by Mohsin on 9/4/15.
 //  Copyright (c) 2017 MJ. All rights reserved.

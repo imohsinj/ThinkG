@@ -1,9 +1,9 @@
 //
 //  ValidatingTextField.swift
-//  MCHAnywhere
+//  VogCalegory
 //
-//  Created by Tejaswi Yerukalapudi on 10/23/15.
-//  Copyright © 2015 Miami Children's Hospital. All rights reserved.
+//  Created by Mohsin Jamadar on 10/23/15.
+//  Copyright © 2015 VogCalegory. All rights reserved.
 //
 
 import Foundation

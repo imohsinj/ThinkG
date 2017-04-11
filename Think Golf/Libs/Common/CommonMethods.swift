@@ -1,6 +1,6 @@
 //
 //  CommonMethods.swift
-//  MCHAnywhere
+//  VogCalegory
 //
 //  Created by Reemberto Parada on 5/29/15.
 //  Copyright (c) 2017 MJ. All rights reserved.
@@ -40,10 +40,10 @@ class CommonMethods: NSObject,UIPopoverPresentationControllerDelegate {
     //Save the user name and passworod to the KeyChain
     func SaveUsernameAndPasswordToKeyChain(_ userName:NSString, passWord:NSString) -> Bool
     {
-        var saveSuccessfully:Bool = KeychainWrapper.setString(userName as String, forKey: "mchanywhereusername")
+        var saveSuccessfully:Bool = KeychainWrapper.setString(userName as String, forKey: "VogCalegoryusername")
         if saveSuccessfully
         {
-            saveSuccessfully = KeychainWrapper.setString(passWord as String, forKey: "mchanywherepassword")
+            saveSuccessfully = KeychainWrapper.setString(passWord as String, forKey: "VogCalegorypassword")
         }
         return saveSuccessfully
     }
@@ -54,8 +54,8 @@ class CommonMethods: NSObject,UIPopoverPresentationControllerDelegate {
     {
         
         var Credentials:Array = Array<String>()
-        let userNameString:String = KeychainWrapper.stringForKey("mchanywhereusername")!
-        let userPwdString:String    = KeychainWrapper.stringForKey("mchanywherepassword")!
+        let userNameString:String = KeychainWrapper.stringForKey("VogCalegoryusername")!
+        let userPwdString:String    = KeychainWrapper.stringForKey("VogCalegorypassword")!
         
         if userNameString != "" && userPwdString != ""
         {
@@ -67,8 +67,8 @@ class CommonMethods: NSObject,UIPopoverPresentationControllerDelegate {
      
     //Remove the username and password after the session ends
     func DeleteUserNameAndPasswordFromKeyChain() {
-        KeychainWrapper.removeObjectForKey("mchanywhereusername")
-        KeychainWrapper.removeObjectForKey("mchanywherepassword")
+        KeychainWrapper.removeObjectForKey("VogCalegoryusername")
+        KeychainWrapper.removeObjectForKey("VogCalegorypassword")
     }
     
     //Store the session token in the keychain

@@ -1,6 +1,6 @@
 //
 //  CredentialManager.swift
-//  MCHAnywhere
+//  VogCalegory
 //
 //  Created by Mohsin Jamadar on 9/24/15.
 //  Copyright (c) 2017 MJ. All rights reserved.
