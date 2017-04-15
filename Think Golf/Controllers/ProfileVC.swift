@@ -141,4 +141,5 @@ class ProfileVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrayTitles.count
     }
+  
 }

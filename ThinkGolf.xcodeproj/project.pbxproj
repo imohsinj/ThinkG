@@ -59,6 +59,8 @@
 		2DFF48531E80440800A57504 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF484D1E80440800A57504 /* DateExtension.swift */; };
 		2DFF48541E80440800A57504 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF484E1E80440800A57504 /* DictionaryExtensions.swift */; };
 		2F0256D86E3297081E02C146 /* Pods_ThinkGolf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B8C5F2A724C8150D861A7F /* Pods_ThinkGolf.framework */; };
+		AA6D81741EA1ED3200162E2D /* NewSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D81731EA1ED3200162E2D /* NewSession.swift */; };
+		AA6D81761EA1F97600162E2D /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D81751EA1F97600162E2D /* ExpandableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +130,8 @@
 		56B8C5F2A724C8150D861A7F /* Pods_ThinkGolf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkGolf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77691683BC116D86522CFA49 /* Pods_Think_GolfUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Think_GolfUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D604A24E0239C1BED71320 /* Pods-Think GolfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Think GolfUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Think GolfUITests/Pods-Think GolfUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6D81731EA1ED3200162E2D /* NewSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSession.swift; sourceTree = "<group>"; };
+		AA6D81751EA1F97600162E2D /* ExpandableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
 		AB44ED303B6A8E388315B8A7 /* Pods-ThinkGolfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkGolfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkGolfTests/Pods-ThinkGolfTests.release.xcconfig"; sourceTree = "<group>"; };
 		B95AD6020DF5C57B608CC425 /* Pods-ThinkGolf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkGolf.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkGolf/Pods-ThinkGolf.release.xcconfig"; sourceTree = "<group>"; };
 		C511A23AB2C137E717E829D2 /* Pods-ThinkGolfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkGolfTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkGolfTests/Pods-ThinkGolfTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -255,6 +259,7 @@
 				2DC9939D1E5D5C7E000CD766 /* CustomPaperCell.swift */,
 				2D0345A51E87ABCE00CE88EE /* MenuVC.swift */,
 				2D0345B21E88388C00CE88EE /* ProfileVC.swift */,
+				AA6D81751EA1F97600162E2D /* ExpandableCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -357,6 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				2D0687B31E82B3D100909B61 /* UserInfo.swift */,
+				AA6D81731EA1ED3200162E2D /* NewSession.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -605,6 +611,7 @@
 				2DFF483C1E80428800A57504 /* KeychainWrapper.swift in Sources */,
 				2D5E785B1E549220006E3470 /* AppDelegate.swift in Sources */,
 				2DFF48531E80440800A57504 /* DateExtension.swift in Sources */,
+				AA6D81741EA1ED3200162E2D /* NewSession.swift in Sources */,
 				2D0687B41E82B3D100909B61 /* UserInfo.swift in Sources */,
 				2D7C81CF1E864D1E00947B21 /* RegisterUser.swift in Sources */,
 				2DA94C431E61607100580E7E /* RegistrationVC.swift in Sources */,
@@ -629,6 +636,7 @@
 				2D0345AF1E881C9100CE88EE /* SideMenuTransition.swift in Sources */,
 				2DFB0DD41E80F1EB00918AF0 /* Reachability.swift in Sources */,
 				2DC9939E1E5D5C7E000CD766 /* CustomPaperCell.swift in Sources */,
+				AA6D81761EA1F97600162E2D /* ExpandableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

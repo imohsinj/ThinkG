@@ -88,10 +88,10 @@ class DashboardVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
     // MARK: - IBAction
     @IBAction func onTapCircle1(_ sender: UITapGestureRecognizer) {
            print("Tapped 1")
-         self.dismiss(animated: true, completion: nil)
-//        resetCircleSelection()
-//        imgViewCircle1.isHighlighted = true
-//        scrollLayoutAtIndex(0)
+//         self.dismiss(animated: true, completion: nil)
+        resetCircleSelection()
+        imgViewCircle1.isHighlighted = true
+        scrollLayoutAtIndex(0)
     }
     @IBAction func onTapCircle2(_ sender: UITapGestureRecognizer) {
         print("Tapped 2")
